@@ -39,6 +39,3 @@ Once the bucket size is specified, the program enters an interactive mode where 
 - When deleting keys, the hash table dynamically adjusts by merging or redistributing keys between buckets.
 - The hash table grows and shrinks its directory based on the global and local depths.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
