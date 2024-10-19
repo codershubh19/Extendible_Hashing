@@ -26,11 +26,11 @@ public:
         return local_depth;
     }
 
-    vector<int> share(){
-        vector<int> temp;
-        for(auto x : records) temp.push_back(x >> local_depth - 1 & 1);
-        return temp;
-    }
+    // vector<int> share(){
+    //     vector<int> temp;
+    //     for(auto x : records) temp.push_back(x >> local_depth - 1 & 1);
+    //     return temp;
+    // }
 
     vector<int> copy(){
         return records;
